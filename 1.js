@@ -16,7 +16,11 @@ function gonder() {
         document.getElementById("span").innerText = `Eded daxil edin`;
         i=++i;
 
-    }
+    }else if (a==b) {
+
+        document.getElementById("span").innerText = `Tebrikler !!!`;
+
+   }
      else if (i == 0) {
 
         document.getElementById("span").innerText = `Oyunu Uduzdunuz!!!`
